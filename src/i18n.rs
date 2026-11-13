@@ -152,7 +152,7 @@ pub fn initial_language() -> Language {
         .unwrap_or_else(system_language)
 }
 impl Language {
-    pub fn history_target<'a>(self, target: &'a str) -> &'a str {
+    pub fn history_target(self, target: &str) -> &str {
         if target == "Paquet invalide" {
             self.text("Paquet invalide", "Invalid packet")
         } else {
