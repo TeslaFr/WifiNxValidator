@@ -1,0 +1,7 @@
+/target/
+*.log
+/dist/
+/docs/
+/TUT.md
+.*.kate-swp
+__pycache__/
